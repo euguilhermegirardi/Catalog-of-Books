@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Books() {
+export default function Home() {
   return (
     <>
       <div className="books">
-        <h1>Books</h1>
+        <h1>Home</h1>
       </div>
     </>
   )

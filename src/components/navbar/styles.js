@@ -21,7 +21,7 @@ export const LinkContainer = styled.div`
 `;
 
 export const Links = styled(Link)`
-flex-grow: 1;
+  flex-grow: 1;
   padding: 1rem;
   text-decoration: none;
   color: #fff;
