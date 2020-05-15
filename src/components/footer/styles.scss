@@ -1,0 +1,23 @@
+.footer {
+  padding: 5px 12rem;
+
+  .footer__toolbar {
+    display: flex;
+    justify-content: space-between;
+
+    .footer__info {
+      display: flex;
+      flex-direction: column;
+
+      .footer__icons {
+        height: 3rem;
+        width: 3rem;
+        cursor: pointer;
+      }
+
+      .footer__fb {
+        margin: 0 2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.navbar {
+  flex-grow: 1;
+
+  .navbar__container {
+    margin: 5px 12rem;
+  }
+
+  .navbar__title {
+    flex-grow: 1;
+    margin-left: 2rem;
+  }
+
+  .navbar__link {
+    color: inherit;
+    margin-left: 3rem;
+  }
+}
