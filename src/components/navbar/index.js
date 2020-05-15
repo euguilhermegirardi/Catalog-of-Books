@@ -1,23 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
-import './styles.scss';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import { Container, LogoContainer, LinkContainer, Links } from './styles';
 import Button from '@material-ui/core/Button';
-
 
 export default function Navbar() {
   return (
-    <div className="navbar">
-      <AppBar position="static">
-        <Toolbar className="navbar__container">
-          <img src={logo} alt="Catalog-of-Books"/>
-          <Typography variant="h6" className="navbar__title">Catalog of Books</Typography>
-          <Button className="navbar__link">Books</Button>
-          <Button className="navbar__link">Authors</Button>
-        </Toolbar>
-      </AppBar>
-    </div>
+    <>
+      <Container>
+        <LogoContainer>
+          <Link to="/"><img src={logo} alt="Catalog-of-Books"/></Link>
+          <Button>
+            <Links to="/">Catalog of Books</Links>
+          </Button>
+        </LogoContainer>
+
+        <LinkContainer>
+          <Button>
+            <Links to="/books">Books</Links>
+          </Button>
+          <Button>
+            <Links to="/authors">Authors</Links>
+          </Button>
+        </LinkContainer>
+      </Container>
+    </>
   );
 }

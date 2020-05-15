@@ -2,16 +2,17 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
-import Routes from './routes';
 
-function App() {
+export default function App() {
   return (
     <>
-      <Navbar />
-      <Routes />
+      <Navbar/>
+      <div className="home">
+        <h1>Home</h1>
+      </div>
       <Footer />
     </>
   );
 };
 
-export default App;
+
