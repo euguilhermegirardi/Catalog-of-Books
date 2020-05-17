@@ -28,6 +28,7 @@ export default function Home() {
           <p>{item.paragraph}</p>
         </div>
       ))}
+      <h4>Reviews about the website:</h4>
       <Reviews comments={comments}/>
     </Content>
     </GridContainer>

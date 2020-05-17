@@ -17,6 +17,14 @@ export const Content = styled.section`
     margin: 2rem;
     margin-right: 20rem;
   }
+
+  h4 {
+    margin: 3rem 0 2rem 2rem;
+    margin-top: 3rem;
+    font-size: 1.8rem;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
 `;
 
 export const CardContainer = styled.div`
