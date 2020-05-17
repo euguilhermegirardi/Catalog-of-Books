@@ -1,0 +1,26 @@
+{
+  "home": [
+    {
+      "id": 1,
+      "h1": "Catalog of Books: A website that you can search for books using the 'Google Books API'.",
+      "paragraph": "How does it work? Very simple! In the navbar you will find two buttons, in 'Books' you can search for a specific book and in 'Authors' you see a list with all the authors."
+    }
+  ],
+  "comments": [
+    {
+      "id": 2,
+      "name": "Guilherme Girardi",
+      "comment": "Awesome website! It helps me a lot!!!"
+    },
+    {
+      "id": 3,
+      "name": "Joe Doe",
+      "comment": "Awesome website! It helps me a lot, Awesome website! It helps me a lot, Awesome website! It helps me a lot!!!"
+    },
+    {
+      "id": 4,
+      "name": "Joe Doe Doe",
+      "comment": "Awesome website! It helps me a lot!!!"
+    }
+  ]
+}

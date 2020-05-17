@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const InfoContainer = styled.div`
+export const InfoContainer = styled.footer`
   display: flex;
   flex-direction: column;
   color: #fff;
@@ -14,7 +14,7 @@ export const LogoLink = styled(Link)`
   color: #fff;
 `;
 
-export const Contact = styled.a`
+export const Contact = styled.p`
   display: flex;
   justify-content: center;
   padding: 1rem;

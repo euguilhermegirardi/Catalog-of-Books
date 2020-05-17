@@ -6,7 +6,7 @@ export const Container = styled.nav`
   justify-content: space-between;
   align-items: center;
   flex-grow: 1;
-  padding: 0 12rem;
+  padding: 0 18rem;
   background-color: #01579b;
   color: #fff;
 `;
@@ -22,6 +22,7 @@ export const LinkContainer = styled.div`
 
 export const Links = styled(Link)`
   flex-grow: 1;
+  font-size: 1.2rem;
   padding: 1rem;
   text-decoration: none;
   color: #fff;

@@ -6,13 +6,14 @@ import Navbar from './components/navbar';
 import Routes from './routes';
 import Footer from './components/footer';
 
+
 export default function App() {
   return (
     <Router history={history}>
-      <GlobalStyle />
-      <Navbar/>
-      <Routes/>
-      <Footer />
+        <GlobalStyle />
+        <Navbar/>
+        <Routes/>
+        <Footer />
     </Router>
   );
 };
