@@ -4,7 +4,6 @@ import { GridContainer } from '../styles/styles';
 import { Form, BooksContainer } from './styles';
 import Button from '@material-ui/core/Button';
 import validateForm from '../../utils/validateForm';
-import Alert from '@material-ui/lab/Alert';
 
 import useForm from '../../utils/useForm';
 
@@ -40,7 +39,7 @@ export default function Books() {
             {errors && <p>{errors}</p>}
             <Button className="btn" type="submit" variant="contained" color="primary">Search</Button>
           </div>
-          <h3>Some books you may like:</h3>
+          <h3>Some books you might like:</h3>
         </Form>
 
         <BooksContainer>

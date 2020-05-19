@@ -49,3 +49,26 @@ export const Card = styled.div`
   }
 `;
 
+export const BtnContainer = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 3rem;
+
+  .btn {
+    width: 12rem;
+    padding: 1rem;
+    background-color: #01579b;
+
+    &:hover {
+      background-color: #01579b;
+      opacity: .7;
+    }
+  }
+`;
+
+export const ReviewContainer = styled.div`
+  border: 2px solid black;
+  margin-bottom: 3rem;
+  padding: 2rem;
+`;
+
