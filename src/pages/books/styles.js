@@ -13,9 +13,19 @@ export const Form = styled.form`
       padding: 8px;
       font-size: 1.2rem;
       border-radius: 3px;
-      margin: 20px 0;
+      margin-top: 20px;
       transition: width 0.4s ease-in-out;
       width: 330px;
+    }
+
+    p {
+      text-align: center;
+      background-color: red;
+      color: white;
+      border-radius: 3px;
+      margin-bottom: 1rem;
+      margin-top: 5px;
+      width: 7rem;
     }
 
     .btn {

@@ -3,26 +3,18 @@ import axios from 'axios';
 import { GridContainer } from '../styles/styles';
 import { Form, BooksContainer } from './styles';
 import Button from '@material-ui/core/Button';
+import validateForm from '../../utils/validateForm';
+import Alert from '@material-ui/lab/Alert';
+
+import useForm from '../../utils/useForm';
 
 export default function Books() {
-  const [books, setBooks] = useState('');
-  const [result, setResult] = useState([]);
-
+  const { books, handleChange, handleSubmit, result, errors } = useForm(submit, validateForm);
   const [loadBooks, setLoadBooks] = useState([]);
-  // const [error, setError] = useState(null);
 
-  function handleInput(e) {
-    const book = e.target.value;
-    setBooks(book);
-  };
-
-  function handleSubmit(e) {
-    e.preventDefault();
-    axios.get('https://www.googleapis.com/books/v1/volumes?q=' + books + '&maxResults=40')
-    .then(res => setResult(res.data.items))
-    // .catch(err => setError(err));
-  };
-
+  function submit() {
+    console.log('it works!');
+  }
 
   function fetchBooks() {
     axios.get('https://www.googleapis.com/books/v1/volumes?q=harry+potter')
@@ -40,29 +32,30 @@ export default function Books() {
           <div>
             <input
               type="text"
-              onChange={handleInput}
+              value={books}
+              onChange={handleChange}
               placeholder="Search a book on Google"
               autoComplete="off"
             />
+            {errors && <p>{errors}</p>}
             <Button className="btn" type="submit" variant="contained" color="primary">Search</Button>
           </div>
-          <h3>Some books you might like:</h3>
+          <h3>Some books you may like:</h3>
         </Form>
 
         <BooksContainer>
         {loadBooks.map(book =>
           <a key={book.id} href={book.volumeInfo.previewLink}>
-          <img src={book.volumeInfo.imageLinks.thumbnail} alt="Book" />
+          <img src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : null} alt="Book" />
           <p>{book.volumeInfo.title}</p>
           </a>
         )}
         </BooksContainer>
 
-
         <BooksContainer>
         {result.map(book =>
           <a key={book.id} href={book.volumeInfo.previewLink}>
-            <img src={book.volumeInfo.imageLinks.thumbnail} alt="Book" />
+            <img src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : null} alt="Book" />
             <p>{book.volumeInfo.title}</p>
           </a>
         )}
