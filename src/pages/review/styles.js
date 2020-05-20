@@ -44,6 +44,8 @@ export const Form = styled.div`
   }
 
   .btn {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
     text-transform: uppercase;
     width: 100%;
     background-color: #01579b;
@@ -55,7 +57,7 @@ export const Form = styled.div`
     cursor: pointer;
 
     &:hover {
-      background-color: #01579b;
+      background-color: #002f6c;
     }
   }
 `;
