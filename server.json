@@ -21,6 +21,11 @@
       "id": 4,
       "name": "Joe Doe Doe",
       "comment": "I recommend this website for all my friends. Nobody ever made a complaint to me! xD"
+    },
+    {
+      "name": "Lua Girardi",
+      "comment": "Awesome website!Awesome website!Awesome website!Awesome website!Awesome website!Awesome website!Awesome website!Awesome website!Awesome website!Awesome website!Awesome website!",
+      "id": 5
     }
   ]
 }
