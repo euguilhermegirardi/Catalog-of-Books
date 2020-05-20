@@ -14,6 +14,7 @@ body,
 #root {
   min-height: 100%; /* To use all the background, all the screen. */
   font-family: "Roboto", Arial, Helvetica, sans-serif;
+  background-color: #e0e0e0;
 }
 
 body {

@@ -67,8 +67,10 @@ export const BtnContainer = styled.div`
 `;
 
 export const ReviewContainer = styled.div`
-  border: 2px solid black;
   margin-bottom: 3rem;
   padding: 2rem;
+  box-shadow: 0 0 8px 1px #01579b;
+  border: 1px solid #ccc;
+  background-color: #efefef;
 `;
 
