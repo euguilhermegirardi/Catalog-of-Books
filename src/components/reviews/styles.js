@@ -8,17 +8,12 @@ export const Container = styled.div`
 
   div {
     margin: 1rem;
-    color: #fff;
-    background-color: #424242;
+    color: #616161;
+    background-color: #fff;
     max-width: 25rem;
     max-height: 35rem;
     border-radius: 3px;
-
-    div {
-      background-color: #6d6d6d;
-      height: 1.5rem;
-      margin: 0;
-    }
+    border: 1px solid #ccc;
 
     h1 {
       font-size: 1.5rem;

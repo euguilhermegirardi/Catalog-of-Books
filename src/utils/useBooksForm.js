@@ -15,6 +15,7 @@ const useForm = (callback, validateForm) => {
 
   function handleSubmit(e) {
     e.preventDefault();
+
     axios.get('https://www.googleapis.com/books/v1/volumes?q=' + books + '&maxResults=40')
     .then(res => setResult(res.data.items))
 

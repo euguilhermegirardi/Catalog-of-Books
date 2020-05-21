@@ -3,12 +3,11 @@ import axios from 'axios';
 import { GridContainer } from '../styles/styles';
 import { Form, BooksContainer } from './styles';
 import Button from '@material-ui/core/Button';
-import validateForm from '../../utils/validateForm';
-
-import useForm from '../../utils/useForm';
+import validateBooksForm from '../../utils/validateBooksForm';
+import useBooksForm from '../../utils/useBooksForm';
 
 export default function Books() {
-  const { books, handleChange, handleSubmit, result, errors } = useForm(submit, validateForm);
+  const { books, handleChange, handleSubmit, result, errors } = useBooksForm(submit, validateBooksForm);
   const [loadBooks, setLoadBooks] = useState([]);
 
   function submit() {

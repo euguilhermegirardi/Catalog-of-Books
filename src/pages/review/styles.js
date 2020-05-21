@@ -55,9 +55,10 @@ export const Form = styled.div`
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: .2s ease-out;
 
     &:hover {
-      background-color: #002f6c;
+      background-color: #0277bd;
     }
   }
 `;

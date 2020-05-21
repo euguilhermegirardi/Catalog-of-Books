@@ -19,9 +19,6 @@ export default function Navbar() {
           <Button>
             <Links to="/books">Books</Links>
           </Button>
-          <Button>
-            <Links to="/authors">Authors</Links>
-          </Button>
         </LinkContainer>
       </Container>
     </>

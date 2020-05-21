@@ -7,7 +7,7 @@ const Reviews = props => {
  return (
    <Container>
       {props.comments.map(infos =>
-          <div key={infos.name}>
+          <div key={infos.id}>
             <h1>{infos.name} says:</h1>
             <p>{infos.comment}</p>
           </div>
