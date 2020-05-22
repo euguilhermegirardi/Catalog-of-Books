@@ -3,7 +3,6 @@ import APIservice from '../../services/service';
 import { Form } from './styles';
 
 export default function Review({ history }) {
-
   const [name, setName] = useState('');
   const [comment, setComment] = useState('');
 
@@ -21,6 +20,7 @@ export default function Review({ history }) {
       <form onSubmit={handleSubmit}>
         <label htmlFor="review">Name:</label>
         <input className="name" placeholder="Your name..." onChange={(e) => setName(e.target.value)} value={name}/>
+
         <label htmlFor="review">Comment:</label>
         <textarea className="comment" placeholder="Your review..." onChange={(e) => setComment(e.target.value)} value={comment}/>
         <button className="btn">Submit</button>

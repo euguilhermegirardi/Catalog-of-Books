@@ -1,9 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
 
-
 const Reviews = props => {
-
  return (
    <Container>
       {props.comments.map(infos =>

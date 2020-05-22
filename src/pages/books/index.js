@@ -44,8 +44,8 @@ export default function Books() {
         <BooksContainer>
         {loadBooks.map(book =>
           <a key={book.id} href={book.volumeInfo.previewLink}>
-          <img src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : null} alt="Book" />
-          <p>{book.volumeInfo.title}</p>
+            <img src={book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : null} alt="Book" />
+            <p>{book.volumeInfo.title}</p>
           </a>
         )}
         </BooksContainer>
