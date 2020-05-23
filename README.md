@@ -16,18 +16,23 @@ The frontend was developed with [**_ReactJS_**](https://reactjs.org/) with [**_R
 I also used [**_React Hook Form_**](https://react-hook-form.com/) to handle the errors in the input tags.
 
 **Home Page**
+
 ![home-page](img/home-page.png)
 
 **Home Page - Review**
+
 ![write-a-review](img/write-a-review.png)
 
 **Review**
+
 ![new-review](img/new-review.png)
 
 **Books**
+
 ![books](img/books.png)
 
 **Search for a book**
+
 ![new-book](img/new-book.png)
 
 ## Getting started
