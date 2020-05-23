@@ -43,6 +43,11 @@ export const Form = styled.div`
     box-sizing: border-box;
   }
 
+  p {
+      color: red;
+      margin: 3px 0;
+    }
+
   .btn {
     font-size: 1.2rem;
     letter-spacing: 2px;

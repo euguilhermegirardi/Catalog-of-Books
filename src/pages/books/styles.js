@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+export const H3 = styled.h3`
+  font-size: 25px;
+  color: #01579b;
+  margin: 1.8rem 0 1rem 0;
+  grid-column: 1/9;
+`;
+
 export const Form = styled.form`
   grid-column: 1/9;
 
@@ -8,27 +15,28 @@ export const Form = styled.form`
     flex-direction: column;
     justify-content: flex-end;
 
+    h3 {
+      margin: 2rem 0 1rem 0;
+      font-size: 25px;
+      color: #01579b;
+    }
+
     input {
       background-color: ##fff;
       padding: 8px;
       font-size: 1.2rem;
       border-radius: 3px;
-      margin-top: 20px;
       transition: width 0.4s ease-in-out;
       width: 330px;
     }
 
     p {
-      text-align: center;
-      background-color: red;
-      color: white;
-      border-radius: 3px;
-      margin-bottom: 1rem;
-      margin-top: 5px;
-      width: 7rem;
+      color: red;
+      margin: 3px 0;
     }
 
     .btn {
+      margin: 8px 0;
       width: 150px;
       background-color: #01579b;
     }
@@ -36,12 +44,6 @@ export const Form = styled.form`
     input[type=text]:focus {
       width: 450px;
     }
-  }
-
-  h3 {
-    font-size: 25px;
-    color: #01579b;
-    margin: 40px 0 25px 0;
   }
 `;
 
