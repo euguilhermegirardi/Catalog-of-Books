@@ -1,68 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Catalog of Books - Frontend
 
-## Available Scripts
+This is the frontend of the **Catalog of Books** project.
 
-In the project directory, you can run:
+## About the project
 
-### `npm start`
+- The **Catalog of Books** is an application where the user can search for books and then go to the proper webpage to buy it if they want to by clicking on the book, the user can also leave a review about the website and his/her experience.
+- In the home page the **_user_** can read some reviews about the website and cana also leave your review by clicking in the button 'Write a Review!' below in the page.
+- The **_user_** can search for books using the Books section on the navbar. Over there she/he will see some sugestions and search for those that he/she wants.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## The frontend
 
-### `npm test`
+The frontend was developed with [**_ReactJS_**](https://reactjs.org/) with [**_React Hooks_**](https://reactjs.org/docs/hooks-intro.html), [**_axios_**](https://www.npmjs.com/package/axios) for the http requests on [**_Google_**] and REST to get the data (reviews) and to create new reviews in the local json-server.
+[**_react-router-dom_**](https://www.npmjs.com/package/react-router-dom) was used to handle the routes in this application.
+I also used [**_React Hook Form_**](https://react-hook-form.com/) to handle the errors in the input tags.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Home Page**
+![home-page](img/home-page.png)
 
-### `npm run build`
+**Home Page - Review**
+![write-a-review](img/write-a-review.png)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Review**
+![new-review](img/new-review.png)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+**Books**
+![books](img/books.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Search for a book**
+![new-book](img/new-book.png)
 
-### `npm run eject`
+## Getting started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1.  Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- npm
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+      npm install npm@latest -g
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Installation
 
-## Learn More
+- Clone the repo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+      git clone https://github.com/euguilhermegirardi/Catalog-of-Books.git
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install NPM packages
 
-### Code Splitting
+       npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+4. Run the application
 
-### Analyzing the Bundle Size
+       npm run start
+       
+5. Run the json-server
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+       json-server server.json -p 3001 -w -d 500
 
-### Making a Progressive Web App
+## Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+1.  Fork the project
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the branch (`git push origin feature/AmazingFeature`)
+5.  Open a pull request
 
-### Advanced Configuration
+## License
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+![MIT](https://img.shields.io/badge/License-MIT-blue.svg)
