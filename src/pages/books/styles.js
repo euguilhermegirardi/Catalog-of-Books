@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const H3 = styled.h3`
   font-size: 25px;
   color: #01579b;
-  margin: 1.8rem 0 1rem 0;
+  margin: 1.8rem 1rem;
   grid-column: 1/9;
 `;
 
 export const Form = styled.form`
   grid-column: 1/9;
+  margin: 1rem;
 
   div {
     display: flex;
@@ -51,6 +52,7 @@ export const BooksContainer = styled.div`
   grid-column: 1/9;
   display: flex;
   flex-wrap: wrap;
+  margin: 1rem;
 
   a {
     display: flex;

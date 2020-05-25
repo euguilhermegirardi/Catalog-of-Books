@@ -9,13 +9,11 @@ export const Content = styled.section`
   h1 {
     font-size: 3rem;
     margin: 2rem;
-    margin-right: 20rem;
   }
 
   p {
     font-size: 1.8rem;
     margin: 2rem;
-    margin-right: 20rem;
   }
 
   h4 {

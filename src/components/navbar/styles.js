@@ -3,10 +3,9 @@ import { Link } from 'react-router-dom';
 
 export const Container = styled.nav`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   flex-grow: 1;
-  padding: 0 18rem;
   background-color: #01579b;
   color: #fff;
 `;
