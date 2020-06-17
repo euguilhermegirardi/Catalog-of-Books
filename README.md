@@ -5,8 +5,8 @@ This is the frontend of the **Catalog of Books** project.
 ## About the project
 
 - The **Catalog of Books** is an application where the user can search for books and then go to the proper webpage to buy it if they want to by clicking on the book, the user can also leave a review about the website and his/her experience.
-- In the home page the **_user_** can read some reviews about the website and cana also leave your review by clicking in the button 'Write a Review!' below in the page.
-- The **_user_** can search for books using the Books section on the navbar. Over there she/he will see some sugestions and search for those that he/she wants.
+- On the home page, the **_user_** can read some reviews about the website and can also leave your review by clicking in the button 'Write a Review!' below on the page.
+- The **_user_** can search for books using the Books section on the navbar. Over there she/he will see some suggestions and search for those that he/she wants.
 
 
 ## The frontend
