@@ -9,6 +9,7 @@ export const InfoContainer = styled.footer`
 
 export const LogoLink = styled(Link)`
   flex-grow: 1;
+  font-size: 1.2rem;
   padding: 2.5rem 1rem;
   text-decoration: none;
   color: #fff;

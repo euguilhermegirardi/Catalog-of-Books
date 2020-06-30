@@ -5,6 +5,8 @@ export const Content = styled.section`
   display: flex;
   flex-direction: column;
   color: #01579b;
+  max-width: 1150px;
+  margin: 0 auto;
 
   h1 {
     font-size: 3rem;
