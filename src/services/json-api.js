@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const jsonAPI = axios.create({
-  baseURL: 'http://localhost:3001',
+  baseURL: 'https://json-server-catalog-of-books.herokuapp.com/',
 });
 
 export default jsonAPI;
