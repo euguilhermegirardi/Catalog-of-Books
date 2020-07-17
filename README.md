@@ -57,9 +57,6 @@ I also used [**_React Hook Form_**](https://react-hook-form.com/) to handle the 
 
        npm run start
        
-5. Run the json-server
-
-       json-server server.json -p 3001 -w -d 500
 
 ## Contributing
 
