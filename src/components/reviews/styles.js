@@ -7,16 +7,26 @@ export const Container = styled.div`
   margin-bottom: 2rem;
   grid-column-gap: 2rem;
 
+  @media screen and (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
   div {
     margin: 1rem;
     color: #616161;
     background-color: #fff;
-    /* max-width: 25rem;
-    max-height: 35rem; */
     min-width: 25rem;
     min-height: 15rem;
     border-radius: 3px;
     border: 1px solid #ccc;
+
+    @media screen and (max-width: 500px) {
+      min-width: 20rem;
+      min-height: 100%;
+      margin-bottom: 1rem;
+    }
 
     h1 {
       font-size: 1.5rem;

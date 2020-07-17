@@ -25,4 +25,10 @@ export const Links = styled(Link)`
   padding: 1rem;
   text-decoration: none;
   color: #fff;
+
+  @media screen and (max-width: 500px) {
+    font-size: 1rem;
+    padding: 0;
+    margin-left: 1rem;
+  }
 `;

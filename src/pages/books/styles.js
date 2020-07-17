@@ -23,7 +23,7 @@ export const Form = styled.form`
     }
 
     input {
-      background-color: ##fff;
+      background-color: #fff;
       padding: 8px;
       font-size: 1.2rem;
       border-radius: 3px;
@@ -44,6 +44,10 @@ export const Form = styled.form`
 
     input[type=text]:focus {
       width: 450px;
+
+      @media screen and (max-width: 500px){
+        width: 330px;
+      }
     }
   }
 `;
@@ -51,6 +55,7 @@ export const Form = styled.form`
 export const BooksContainer = styled.div`
   grid-column: 1/9;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   margin: 1rem;
 

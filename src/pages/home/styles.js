@@ -11,11 +11,23 @@ export const Content = styled.section`
   h1 {
     font-size: 3rem;
     margin: 2rem;
+
+    @media screen and (max-width: 500px) {
+      margin: 2rem 0 1rem 0;
+      padding: 5px;
+      font-size: 2rem;
+    }
   }
 
   p {
     font-size: 1.8rem;
     margin: 2rem;
+
+    @media screen and (max-width: 500px) {
+      margin: 0 0 2rem 0;
+      padding: 5px;
+      font-size: 1.5rem;
+    }
   }
 
   h4 {
@@ -71,5 +83,9 @@ export const ReviewContainer = styled.div`
   padding: 2rem;
   border: 1px solid #ccc;
   background-color: #efefef;
+
+  @media screen and (max-width: 500px) {
+    padding: 0;
+  }
 `;
 
